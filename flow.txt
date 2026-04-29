@@ -3,8 +3,8 @@
 1. Get the app ready locally.
 
 >>>>> Deploy Flask App on Minikube <<<<<
-2. Fire up the docker engine.
-3. Setup your Dockerfile and build the image: "docker build -t flask-metrics-app:latest ."
+2. Fire up the docker engine.docker build -t flask-metrics-app:latest .
+3. Setup your Dockerfile and build the image: ""
 4. Create the kubemanifest yaml file (flask-app.yaml)
 5. minikube start
 6. Add image to cluster - "minikube image load flask-metrics-app:latest"
